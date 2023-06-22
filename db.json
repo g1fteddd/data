@@ -1,8 +1,15 @@
 {
+    "categories": [
+        { "id": 0, "name": "all" },
+        { "id": 1, "name": "cars" },
+        { "id": 2, "name": "cameras" },
+        { "id": 3, "name": "property" },
+        { "id": 4, "name": "laptop" }
+    ],
     "items": [
         {
             "id": 1,
-            "category": "cars",
+            "category": 1,
             "imageUrl": "https://sportishka.com/uploads/posts/2021-12/1639052636_21-sportishka-com-p-mashini-obichnie-sport-krasivo-foto-21.jpg",
             "name": "BMW 5 серии б/у",
             "price": 3370000,
@@ -10,13 +17,11 @@
                 "city": "Москва",
                 "street": "Одесская"
             },
-            "dateProduction": 2019,
-            "transmission": "Автомат",
-            "typeBody": "Седан"
+            "dateProduction": 2019
         },
         {
             "id": 2,
-            "category": "cars",
+            "category": 1,
             "imageUrl": "https://avtorinok.ru/photo/pics/aston-martin/v8-vantage/98969.jpg",
             "name": "Новый Porsche Panamera",
             "price": 6942000,
@@ -24,13 +29,11 @@
                 "city": "Санкт-Петербург",
                 "street": "Ленина"
             },
-            "dateProduction": 2023,
-            "transmission": "Автомат",
-            "typeBody": "Хэтчбек"
+            "dateProduction": 2023
         },
         {
             "id": 3,
-            "category": "cars",
+            "category": 1,
             "imageUrl": "https://avtoshark.com/wp-content/uploads/2020/06/ramnyy-vnedorozhnik.jpg",
             "name": "Patriot",
             "price": 2344000,
@@ -38,13 +41,11 @@
                 "city": "Тюмень",
                 "street": "Луначарского"
             },
-            "dateProduction": 2017,
-            "transmission": "Механика",
-            "typeBody": "Внедорожник"
+            "dateProduction": 2017
         },
         {
             "id": 4,
-            "category": "cars",
+            "category": 1,
             "imageUrl": "https://sportishka.com/uploads/posts/2022-11/1667490461_40-sportishka-com-p-mashini-kupe-marki-instagram-58.jpg",
             "name": "Хонда",
             "price": 900000,
@@ -52,13 +53,11 @@
                 "city": "Нижневартовск",
                 "street": "Мира"
             },
-            "dateProduction": 2010,
-            "transmission": "Механика",
-            "typeBody": "Купэ"
+            "dateProduction": 2010
         },
         {
             "id": 5,
-            "category": "cars",
+            "category": 1,
             "imageUrl": "https://sportishka.com/uploads/posts/2022-11/1667479175_44-sportishka-com-p-cherno-zheltaya-mashina-vkontakte-46.jpg",
             "name": "Bugatti Veyron",
             "price": 26000000,
@@ -66,9 +65,68 @@
                 "city": "Москва",
                 "street": "Республики"
             },
-            "dateProduction": 2010,
-            "transmission": "Автомат",
-            "typeBody": "Спорт"
+            "dateProduction": 2010
+        },
+
+        {
+            "id": 6,
+            "category": 2,
+            "imageUrl": "https://photoprocenter.ru/upload/Products/modelId7869/51763ccd5f8f4.jpg",
+            "name": "Фотоаппарат Canon 9G433",
+            "price": 100000,
+            "location": {
+                "city": "Калуга",
+                "street": "Спортивная"
+            },
+            "dateProduction": 2010
+        },
+        {
+            "id": 7,
+            "category": 2,
+            "imageUrl": "https://static.insales-cdn.com/files/1/4020/12685236/original/luchshij-fotoapparat-dlya-lyubitelya_10-1024x682_1777e55721d6bb084a8cc4d403e3b8b4.jpg",
+            "name": "Sony Ericsson б/у",
+            "price": 90000,
+            "location": {
+                "city": "Чита",
+                "street": "Чапаева"
+            },
+            "dateProduction": 2010
+        },
+        {
+            "id": 8,
+            "category": 2,
+            "imageUrl": "https://wp-s.ru/wallpapers/13/16/449891972901385/sovetskij-fotoapparat-odnoobektivnyj-zerkalnyj.jpg",
+            "name": "Фотоаппарат бомба",
+            "price": 120000,
+            "location": {
+                "city": "Казань",
+                "street": "Татарская"
+            },
+            "dateProduction": 2010
+        },
+        {
+            "id": 9,
+            "category": 2,
+            "imageUrl": "https://www.kino.nn.ru/wp-content/uploads/2019/09/Nikon-Z6-1024x767.jpg",
+            "name": "Никон H3434dKDD б/у",
+            "price": 23450,
+            "location": {
+                "city": "Сургут",
+                "street": "Дружбы Народов"
+            },
+            "dateProduction": 2010
+        },
+        {
+            "id": 10,
+            "category": 2,
+            "imageUrl": "https://www.yarkiy.ru/uploads/ckeditor/pictures/8525/content_1.jpg",
+            "name": "Полароид",
+            "price": 2000,
+            "location": {
+                "city": "Тобольск",
+                "street": "Семёна Ремезова"
+            },
+            "dateProduction": 2010
         }
     ]
 }
