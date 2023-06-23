@@ -1,10 +1,10 @@
 {
     "categories": [
-        { "id": 0, "name": "all", "value": "Все" },
-        { "id": 1, "name": "cars", "value": "Автомобили" },
-        { "id": 2, "name": "cameras", "value": "Фотоаппараты" },
-        { "id": 3, "name": "property", "value": "Недвижимость" },
-        { "id": 4, "name": "laptop", "value": "Ноутбуки" }
+        { "id": 0, "name": "Все", "value": "all" },
+        { "id": 1, "name": "Автомобили", "value": "cars" },
+        { "id": 2, "name": "Фотоаппараты", "value": "cameras" },
+        { "id": 3, "name": "Недвижимость", "value": "property" },
+        { "id": 4, "name": "Ноутбуки", "value": "laptop" }
     ],
     "items": [
         {
