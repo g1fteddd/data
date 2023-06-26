@@ -138,5 +138,8 @@
             "dateProduction": 2010,
             "rating": 4
         }
-    ]
+    ],
+    "allItemsLength": {
+        "length": 10
+    }
 }
